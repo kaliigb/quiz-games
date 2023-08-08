@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".clubs">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:textColor="@color/black"
+
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/cr7"
+        android:layout_width="218dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60px" />
+
+    <EditText
+        android:id="@+id/oday"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="pp"
+        android:text="enter" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="231dp" />
+    <RadioButton
+        android:id="@+id/a"
+        android:onClick="aa"
+        android:text="one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/b"
+        android:onClick="bb"
+        android:text="two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/c"
+        android:onClick="cc"
+        android:text="the"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/d"
+        android:text="four"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:onClick="dd" />
+
+    /RadioGroup>
+    <TextView
+        android:id="@+id/text5"
+        android:text="your selction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
